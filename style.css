@@ -20,12 +20,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #efefef;
 }
 
 .profile-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 25px;
     background-color: #ecf0f3;
@@ -34,8 +35,10 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: -3px -3px 7px #FFF,
-        3px 3px 5px #ceced1;
+    box-shadow: -3px -3px 10px 5px #FFF,
+        3px 3px 10px 5px #ceced1;
+    height: 70%;
+    border: 1px solid #FFF;
 }
 
 .profile-card .top-side {
@@ -56,25 +59,24 @@ body {
     -o-border-radius: 50%;
     border: 15px solid #e4e4e485;
     overflow: hidden;
-    margin: 0 25px 25px 25px;
-    box-shadow: -11px -4px 12px 2px #FFF,
-        11px 4px 12px 2px #dadada
+    margin: 0 25px 30px 25px;
+    box-shadow: -3px -3px 10px 5px #FFF,
+        3px 3px 10px 5px #ceced1;
 }
 
 .profile-card .top-side .profile-image img {
     width: 100%;
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    border: 1px solid #000;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
 }
 
 .profile-card .top-side .info {
-    font-size: 20px;
-    font-weight: 400;
-    color: #31344b;
+    font-size: 25px;
+    font-weight: 500;
+    color: #494e6b;
 }
 
 .profile-card .media {
@@ -115,8 +117,8 @@ body {
 .profile-card .buttons {
     padding: 10px 40px;
     background-color: #ecf0f3;
-    box-shadow: -4px -4px 5px 5px #FFF,
-        4px 4px 5px 5px #dadada;
+    box-shadow: -3px -3px 10px 5px #FFF,
+        3px 3px 10px 5px #ceced1;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
